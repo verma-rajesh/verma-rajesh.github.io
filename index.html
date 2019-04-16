@@ -1,31 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Rajesh</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="index.css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Subrayada" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-
-    <script src="main.js"></script>
+	<meta charset="UTF-8">
+	<title>Portfolio</title>
+	<link rel="stylesheet" type="text/css" href="./tech.css">
 </head>
 <body>
-    <div class="header">
-        <ul>
-            <li> <a href="Resume.pdf">download cv</a></li>
-            <li> <a href="#">contact me</a></li>
-        </ul>
-        <header>
-                <div class="profile-name">
-                        <h3> <marquee> Rajesh Kumar Verma</marquee></h3>
-                      </div>
-                <img src="rr.jpg" class="pic">
-               
-        </header>
-        <div id="inner">
-                <p> Hi <br> I'm Full Stack Developer.<br> In Love with Music , Travelling and Learn new things.</p>
-                </div>
+	<nav class="navbar">
+		<ul id="navbar-list">
+			<li><a href="#welcome-section">Home</a></li>
+			<li><a href="#projects">Projects</a></li>
+			
+			<li><a href="#contact">Contact</a></li>
+			<li><a href="Resume.pdf" target="blank">Download Cv</a></li>
+		</ul>
+	</nav>
+
+	<div id="welcome-section" class="intro">
+
+		<h1>Hey I'm Rajesh Verma</h1>
+		<p>A Full Stack Developer</p>
+		<img src="rr.jpg" alt="">		
+	</div>
+	
+	<div id="projects" class="Work">
+		<h2 class="work-header">These are some of my projects.....</h2>
+
+		<a href="https://verma-rajesh.github.io/Calculator/" target="blank" class="project project-tile">
+			<img class="project-pic" src="calculator.jpg" alt="project">
+			<div class="project-title">Web Calculator ( js )</div>
+		</a>
+
+		<a href="#" target="blank" class="project project-tile">
+			<img class="project-pic" src="Python-Calculator.png" alt="project">
+			<div class="project-title">Desktop Calculator (Python)</div>
+		</a>
+
+		<a href="#" target="blank" class="project project-tile">
+			<img class="project-pic" src="library.jpg" alt="project">
+			<div class="project-title">Library Mangement Software(Python)</div>
+		</a>
+
+		<a href="#" target="blank" class="project project-tile">
+			<img class="project-pic" src="calculatorr.jpg" alt="project">
+			<div class="project-title">Coming....</div>
+		</a>
+
+		
+		
+	</div>
+
+	<div id="contact" class="contact">
+		<div class="header">
+			<h1>Let's work together......</h1>
+		</div>
+		<a href="https://www.facebook.com/vermarajesh6615" class="contact-details" target="blank"><img src="fb-logo.png" alt="" width="100px" height="100px"></a>
+		
+		<a href="https://github.com/verma-rajesh" class="contact-details" target="blank"><img src="twitter.png" alt="" width="100px" height="100px"></a>
+
+		<a href="https://github.com/verma-rajesh" class="contact-details" target="blank"><img src="insta-logo.jpg" alt="" width="100px" height="100px"></a>
+
+		<a href="https://github.com/verma-rajesh" class="contact-details" target="blank"><img src="git.jpg" alt="" width="100px" height="100px"></a>
+	</div>
+
+	<footer>**This is Created by R Software Pvt. Ltd. ..... <p>&copy; Created for <a href="https://verma-rajesh.github.io/" target="blank">Rajesh Verma</a></p></footer>
 </body>
 </html>
