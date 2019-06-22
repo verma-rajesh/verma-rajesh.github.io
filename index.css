@@ -12,7 +12,7 @@ nav ul{
 	text-align: right;
 	position: fixed;
 	width: 100%;
-	background: linear-gradient(45deg,dodgerblue,skyblue,dodgerblue)
+	background: #be3144;
 }
 
 nav ul li{
@@ -45,7 +45,7 @@ nav ul li a:hover{
 
 .intro{
 	top: 0px;
-	background: rgb(48, 209, 196);
+	background: #303841;
 	min-height: 55vh;
 	padding-top: 45vh;
 
@@ -114,7 +114,7 @@ nav ul li a:hover{
 }
 
 .contact{
-	background: #c8f7c5;
+	background: #45567d;
 	padding-bottom: 160px;
 }
 
